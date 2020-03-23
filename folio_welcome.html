@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="portfolio.css">
+<style>
+.button {
+  height:  50%;
+  width:50%;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  color:black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),url('brickwall.jpg');
+}
+
+.button:hover {
+color: brown;
+font-style:oblique;
+font-size: 50px;	
+opacity:0.7;
+font-weight:bold;
+font-family:  "Times New Roman", Times, serif;
+
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#left-top{
+float:right;
+top:0;
+left:0;
+width:100%;
+height:50%;
+}
+
+#left-bottom #right-bottom{
+height:50%;
+width:50%;
+}
+
+#left-bottom{
+float:left;
+bottom:0;
+left:0;
+}
+
+#right-bottom{
+float:right;
+bottom:0;
+right:0;
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+<div class="test-container">
+	<div class="test-content">
+		<h1><font size="12">Hi, I am Teja</font></h1>
+		<br>
+		<h3> And, this is my portfolio</h3>
+	</div>
+</div>
+
+<div class="left-container">
+
+<button class="button" id="left-top" onclick="location.href='project_info.html'" >My Projects</button>
+<button class="button" id="left-bottom">About me</button>
+<button class="button" id="right-bottom">Extra Button WIP</button>
+
+</div>
+
+
+<div class="right-container">
+
+</div>
+
+
+<div class="bottom-container">
+<p style="width:100%; color:white;overflow:hidden;">This is at the end of the page</p>
+</div>
+</body>
+
+
+</html>
+
+
